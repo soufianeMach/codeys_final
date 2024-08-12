@@ -1,0 +1,5 @@
+---
+plugins:
+  - variable:
+     - MachineName:
+         InitialValue: "${PORTAINER_EDGE_ID}"
