@@ -10,5 +10,5 @@ services:
       - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
       - /tmp:/tmp
       - /drm:/drm
-      - ./${PORTAINER_EDGE_ID}:/home/codesys_root/Plclogic/Application
+      - ./configs/${PORTAINER_EDGE_ID}:/home/codesys_root/Plclogic/Application
     restart: always
