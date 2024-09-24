@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   Wago-CAA-Runtime:
-    image: wagoalex/cc-9301-app-analytics:1.0
+    image: geekychebbi/cc100-codesys:latest
     container_name: "050---wago-caa3-cc-FW26"
     command: "--init"
     network_mode: host
