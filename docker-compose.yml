@@ -1,8 +1,8 @@
 version: '3.7'
 services:
   Wago-CAA-Runtime:
-    image: wagoalex/cc-fw26:latest
-    container_name: "050---wago-caa3-cc-FW26"
+    image: wagoalex/cc-fw27:latest
+    container_name: "dat--wago"
     command: "--init"
     network_mode: host
     privileged: true
