@@ -1,8 +1,8 @@
 version: '3.7'
 services:
   Wago-CAA-Runtime:
-    image: wagoalex/cc-fw27:latest
-    container_name: "dat--wago"
+    image: geekychebbi/cc100-codesys:latest
+    container_name: "050---wago-caa3-cc-FW27"
     command: "--init"
     network_mode: host
     privileged: true
@@ -10,5 +10,5 @@ services:
       - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
       - /tmp:/tmp
       - /drm:/drm
-      - ./configs/${PORTAINER_EDGE_ID}:/home/codesys_root/PlcLogic/Application
+      - ./configs/5e18e002-f4f9-4fdc-a114-0ac0ca61b299:/home/codesys_root/PlcLogic/Application
     restart: always
